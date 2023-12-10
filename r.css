@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url('photo2.jpg');
+    background-size: cover;
+
+}
+input, select, button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 14, 83);
+    font-size: 20px;
+}
+.wrapper{
+    min-height: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:baseline;
+    justify-content:baseline;
+
+}
+.inner form{
+    width: 50%;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+.inner3{
+    text-transform: uppercase;
+}
+.form-group{
+    display: flex;
+}
+.form-group input{
+    width: 50%;
+
+}
+.form-group input:first-child{
+    margin-right: 25px;
+
+}
+.form-wrapper{
+    position: relative;
+}
+.form-control{
+    border:1px rgb(78, 88, 97);
+    border: none;
+    border-bottom: 1px rgb(78, 88, 97);
+    display: block;
+    width: 20%;
+    height: 30px;
+    padding-right: 0;
+    margin-bottom: 25px ;
+}
+ 
+ 

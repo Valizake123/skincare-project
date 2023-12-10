@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.body{
+    display:flex;
+flex-direction: row;
+justify-content:center;
+justify-content:space-evenly;
+justify-content:space-around;
+justify-content:flex-start;
+justify-content:flex-end;
+width: 80%;
+flex-wrap: wrap;
+}
+
